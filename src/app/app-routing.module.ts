@@ -25,7 +25,7 @@ const routes: Routes = [
   { path: 'loginAtm', component: LoginAtmComponent},
   { path: 'cantidadDeposito', component: CantidadDepositoComponent},
   { path: 'conTarjeta', component: ConTarjetaComponent},
-  { path: 'caonfirmacionDeposito', component: ConfirmacionDepositoComponent},
+  { path: 'confirmacionDeposito', component: ConfirmacionDepositoComponent},
   { path: 'confirmacionRetiro', component: ConfirmacionRetirosComponent},
   { path: 'consultarSaldo', component: ConsultarSaldoComponent},
   { path: 'depositos', component: DepositosComponent},
