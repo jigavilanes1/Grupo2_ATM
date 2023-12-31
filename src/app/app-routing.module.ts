@@ -5,7 +5,8 @@ import { RouterModule, Routes, RoutesRecognized } from '@angular/router';
 /************************* COMPONENTS ************************************** */
 import { OpcionesComponent } from './opciones/opciones.component';
 import { LoginAtmComponent } from './login-atm/login-atm.component';
-import { CantidadDepositoComponent } from './cantidad-deposito/cantidad-deposito.component';
+import { CantidadDepositoContComponent } from './cantidad-deposito/cantidad-deposito-cont/cantidad-deposito-cont.component';
+import { CantidadDepositoSintComponent } from './cantidad-deposito/cantidad-deposito-sint/cantidad-deposito-sint.component';
 import { ConTarjetaComponent } from './con-tarjeta/con-tarjeta.component';
 import { ConfirmacionDepositoComponent } from './confirmacion-deposito/confirmacion-deposito.component';
 import { ConfirmacionRetirosComponent } from './confirmacion-retiros/confirmacion-retiros.component';
@@ -21,15 +22,17 @@ import { RetiroExitosoComponent } from './transaccion-exitosa/retiro-exitoso/ret
 import { DepositoFallidoComponent } from './transaccion-fallida/deposito-fallido/deposito-fallido.component';
 import { RetiroFallidoComponent } from './transaccion-fallida/retiro-fallido/retiro-fallido.component';
 import { ValorDepositoConTComponent } from './valores/valor-deposito-con-t/valor-deposito-con-t.component';
-import { ValorDepositoSinTComponent } from './valores/valor-deposito-sin-t/valor-deposito-sin-t.component';
+import { TarjetaComponent } from './tarjeta/tarjeta.component';
 import { ValorRetiroConTComponent } from './valores/valor-retiro-con-t/valor-retiro-con-t.component';
-import { ValorRetiroSinTComponent } from './valores/valor-retiro-sin-t/valor-retiro-sin-t.component';
+import { FueraServicioComponent } from './fuera-servicio/fuera-servicio.component';
+import { FaltaTarjetaComponent } from './falta-tarjeta/falta-tarjeta.component';
 
 const routes: Routes = [
   
   { path: '', component: OpcionesComponent},
   { path: 'loginAtm', component: LoginAtmComponent},
-  { path: 'cantidadDeposito', component: CantidadDepositoComponent},
+  { path: 'cantidadDepositoSinT', component: CantidadDepositoSintComponent},
+  { path: 'cantidadDepositoConT', component: CantidadDepositoContComponent},
   { path: 'conTarjeta', component: ConTarjetaComponent},
   { path: 'confirmacionDeposito', component: ConfirmacionDepositoComponent},
   { path: 'confirmacionRetiro', component: ConfirmacionRetirosComponent},
@@ -45,9 +48,11 @@ const routes: Routes = [
   { path: 'depositoFallido', component: DepositoFallidoComponent},
   { path: 'retiroFallido', component: RetiroFallidoComponent},
   { path: 'valorDepositoCT', component: ValorDepositoConTComponent},
-  { path: 'valorDepositoST', component: ValorDepositoSinTComponent},
+  { path: 'valorDepositoCT', component: TarjetaComponent},
   { path: 'valorRetiroCT', component: ValorRetiroConTComponent},
-  { path: 'valorRetiroST', component: ValorRetiroSinTComponent}
+  { path: 'fueraServicio', component: FueraServicioComponent},
+  { path: 'faltaTarjeta', component: FaltaTarjetaComponent},
+  { path: 'tarjeta', component: TarjetaComponent}
 ];
 
 @NgModule({

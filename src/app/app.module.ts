@@ -23,10 +23,10 @@ import { RetiroExitosoComponent } from './transaccion-exitosa/retiro-exitoso/ret
 import { DepositoFallidoComponent } from './transaccion-fallida/deposito-fallido/deposito-fallido.component';
 import { RetiroFallidoComponent } from './transaccion-fallida/retiro-fallido/retiro-fallido.component';
 import { ValorDepositoConTComponent } from './valores/valor-deposito-con-t/valor-deposito-con-t.component';
-import { ValorDepositoSinTComponent } from './valores/valor-deposito-sin-t/valor-deposito-sin-t.component';
+import { FueraServicioComponent } from './fuera-servicio/fuera-servicio.component';
 import { ValorRetiroConTComponent } from './valores/valor-retiro-con-t/valor-retiro-con-t.component';
-import { ValorRetiroSinTComponent } from './valores/valor-retiro-sin-t/valor-retiro-sin-t.component';
-
+import { TarjetaComponent } from './tarjeta/tarjeta.component';
+import { FaltaTarjetaComponent } from './falta-tarjeta/falta-tarjeta.component';
 
 @NgModule({
   declarations: [
@@ -49,9 +49,10 @@ import { ValorRetiroSinTComponent } from './valores/valor-retiro-sin-t/valor-ret
     DepositoFallidoComponent,
     RetiroFallidoComponent,
     ValorDepositoConTComponent,
-    ValorDepositoSinTComponent,
+    TarjetaComponent,
     ValorRetiroConTComponent,
-    ValorRetiroSinTComponent
+    FueraServicioComponent,
+    FaltaTarjetaComponent
   ],
   imports: [
     BrowserModule,

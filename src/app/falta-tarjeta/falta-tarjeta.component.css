@@ -109,12 +109,7 @@
     margin-bottom: 40px;
   }
   
-  .con-tarjeta {
-    background-color: #1d837a;
-    color: #fff; 
-  }
-  
-  .sin-tarjeta:hover {
+  .sin-tarjeta:hover, .con-tarjeta:hover {
     background-color: #1d837a;
     color: #fff; 
   }
@@ -179,17 +174,11 @@
   }
 
   td div img {
-    max-width: 33%; 
+    max-width: 40%; 
     height: auto; 
     margin: 0 auto; 
     align-items: center;
 }
-  .input-label {
-    text-align: left;
-    top: 10%;
-    left: 0%;
-    color: #000000;
-  }
 
   footer {
     text-align: center;

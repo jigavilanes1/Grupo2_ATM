@@ -1,0 +1,235 @@
+.primer-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 12% 88%;
+    height: 100%;
+  }
+  
+  .header {
+    background: linear-gradient(to top, #16b9ab, #1DAB9F);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    box-sizing: border-box;
+  }
+  
+  .logo {
+    width: 10.5%;
+    height: 92%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 55%;
+    height: 100%;
+  }
+  
+  .nombre {
+    display: contents;
+    align-items: center;
+    cursor:default;
+  }
+  
+  .nombre p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 33px;
+    color: #ffffff;
+    cursor:default;
+    padding-right: 400px;
+  }
+  
+  .usuario-info {
+    display:flex;
+    align-items: center;
+    cursor:default;
+  }
+  
+  .usuario-info img {
+    width: 20%;
+    border-radius: 50%;
+  }
+  
+  .usuario-info p {
+    font-size: 20px;
+    padding-right: 15px;
+    color: #ffffff;
+  }
+  
+  .segundo-grid {
+    display: grid;
+    grid-template-columns: 9% 91%;
+    background: linear-gradient(to top, #12cbbb, #1caea2);
+    cursor: default;
+  }
+  
+  .columna-celeste {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    cursor: default;
+  }
+  
+  .espaciado {
+    margin-top: 20px;
+  }
+  
+  .sin-tarjeta img {
+    margin-top: 15px;
+    width: 45%;
+    max-width: 90%;
+    margin-bottom: 15px; 
+  }
+  
+  .con-tarjeta img {
+    margin-top: 15px;
+    width: 45%;
+    max-width: 90%;
+    margin-bottom: 15px;
+  }
+  
+  .salir img {
+    margin-top: 210px;
+    width: 37%;
+    max-width: 90%;
+  }
+  
+  .salir:hover, .sin-tarjeta:hover, .con-tarjeta:hover {
+    cursor: pointer;
+  }
+  
+  .salir p {
+    margin-top: 25px;
+    font-size: 20px; 
+    color: #ffffff;
+    margin-bottom: 40px;
+  }
+  
+  .con-tarjeta {
+    background-color: #1d837a;
+    color: #fff; 
+  }
+  
+  .sin-tarjeta:hover {
+    background-color: #1d837a;
+    color: #fff; 
+  }
+  
+  .sin-tarjeta img:hover, .con-tarjeta img:hover, .salir img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  
+  .columna-gris {
+    background-color: #ffffff; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .columna-gris h3 {
+      font-family: 'Times New Roman', serif;
+      font-size: 50px; 
+      color: #000000d3; 
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.386); 
+      margin-top: 25px;
+      font-weight:lighter;
+      cursor:default;
+    }
+  
+  .columna-gris h4 {
+      font-family: 'Times New Roman', serif;
+      font-size: 25px; 
+      color: #000; 
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.255);
+      margin-top: -30px;
+      margin-bottom: 25px;
+      font-weight: normal;
+      cursor:default;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 6px;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    color: #26494E;
+    font-weight: normal;
+  }
+
+  th {
+    background-color: #CADDE1; 
+  }
+
+  td {
+    position: relative;
+    height: 150px;
+  }
+
+  td input {
+    padding: 17.5px;
+    border: 1px solid #ddd;
+    border-radius: 15px; 
+    width: 200px;
+    background-color: #BDBDBD;
+    margin-top: 5px; 
+    cursor: default;
+    text-align: center;
+  }
+
+  .input-label {
+    text-align: left;
+    top: 30%;
+    left: 0%;
+    color: #000000;
+  }
+
+  .button-container {
+    display: flex;
+    margin-top: 1%;
+
+  }
+
+  .button {
+    width: 200px;
+    height: 60px;
+    border-radius: 40px;
+    background: linear-gradient(to top, #16b9ab, #1DAB9F);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    color: #fff;
+    margin-right: 50px; 
+    margin-left: 50px; 
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button:hover {
+    background: linear-gradient(to top, #12cdbe, #19c0b2);
+  }
+
+  footer {
+    text-align: center;
+    padding: 15px;
+    background: linear-gradient(to top, #16b9ab, #1DAB9F);
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 15px;
+  }
+  

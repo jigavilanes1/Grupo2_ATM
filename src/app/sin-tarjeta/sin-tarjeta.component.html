@@ -11,36 +11,45 @@
             <img src="../../../assets/img/Img persona.png" alt="Usuario">
         </div>
     </div>
-<div class="segundo-grid">
-    <div class="columna-celeste">
-        <div class="espaciado"></div>
-        <div class="con-tarjeta" routerLink="/conTarjeta">
-            <img src="../../../assets/img/atm/tarjeta-de-credito.png" alt="Tarjeta">
-        </div>
-        <div class="espaciado"></div>
-        <div class="sin-tarjeta" routerLink="/sinTarjeta">
-         <img src="../../../assets/img/atm/sin-tarjeta-de-credito.png" alt="Sin Tarjeta">
-        </div>
-        <div class="salir" routerLink="/">
-            <img src="../../../assets/img/atm/cerrar-sesion.png" alt="Sin Tarjeta">
-            <p>Salir</p>
-           </div>
-    </div>
-    <div class="columna-gris">
-        <h3>ATM</h3>
-        <h4>Transacciones sin tarjeta</h4>
-        
-        <div class="centrado">
-            <div class="cuadro-gris" routerLink="/depositos">
-                <img src="../../../assets/img/atm/depositar.png" alt="Imagen Depósitos">
-                <p>Depósitos</p>
+    <div class="segundo-grid">
+        <div class="columna-celeste">
+            <div class="espaciado"></div>
+            <div class="con-tarjeta" routerLink="/conTarjeta">
+                <img src="../../../assets/img/atm/tarjeta-de-credito.png" alt="Tarjeta">
             </div>
-            <div class="cuadro-gris" routerLink="/retiros">
-                <img src="../../../assets/img/atm/retiro-de-efectivo.png" alt="Imagen Retiros">
-                <p>Retiros</p>
+            <div class="espaciado"></div>
+            <div class="sin-tarjeta" routerLink="/sinTarjeta">
+                <img src="../../../assets/img/atm/sin-tarjeta-de-credito.png" alt="Sin Tarjeta">
             </div>
+            <div class="salir" routerLink="/">
+                <img src="../../../assets/img/atm/cerrar-sesion.png" alt="Sin Tarjeta">
+                <p>Salir</p>
+            </div>
+        </div>
+        <div class="columna-gris">
+            <h3>ATM</h3>
+            <h4>Transacciones sin Tarjeta</h4>
+            <table>
+                <tr>
+                  <th>Datos</th>
+                </tr>
+                <tr>
+                    <td >
+                        <label class="input-label">Ingrese el número de su cuenta o tarjeta: </label>
+                    <br><br>
+                        <label class="input-label"></label>
+                        <input type="text">
+                      </td>
+                </tr>
+              </table>
+              <div class="button-container">
+                <div class="button" routerLink="/tarjeta">Continuar</div>
+                <div class="button" routerLink="/faltaTarjeta">Cancelar</div>
+              </div>
     </div>
+    
 </div>
+
 </div>
 <footer>
     © 2023 Tu Banco. Todos los derechos reservados.

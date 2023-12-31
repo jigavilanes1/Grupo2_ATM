@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ValorRetiroSinTComponent } from './valor-retiro-sin-t.component';
+import { FaltaTarjetaComponent } from './falta-tarjeta.component';
 
-describe('ValorRetiroSinTComponent', () => {
-  let component: ValorRetiroSinTComponent;
-  let fixture: ComponentFixture<ValorRetiroSinTComponent>;
+describe('FaltaTarjetaComponent', () => {
+  let component: FaltaTarjetaComponent;
+  let fixture: ComponentFixture<FaltaTarjetaComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ValorRetiroSinTComponent]
+      imports: [FaltaTarjetaComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(ValorRetiroSinTComponent);
+    fixture = TestBed.createComponent(FaltaTarjetaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

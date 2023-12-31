@@ -175,7 +175,7 @@
 
   td {
     position: relative;
-    height: 200px;
+    height: 155px;
   }
 
   td input {
@@ -184,12 +184,12 @@
     border-radius: 50px; 
     box-sizing: border-box;
     background-color: #BDBDBD;
-    margin-top: 5px; /* Espaciado entre el texto y el input */
+    
   }
 
   .input-label {
     text-align: left;
-    top: 50%;
+    top: 30%;
     left: 0%;
     color: #000000;
   }
