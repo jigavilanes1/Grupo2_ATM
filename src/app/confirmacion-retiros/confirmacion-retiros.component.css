@@ -98,7 +98,7 @@
     max-width: 90%;
   }
   
-  .salir:hover, .sin-tarjeta:hover{
+  .salir:hover, .sin-tarjeta:hover, .con-tarjeta:hover {
     cursor: pointer;
   }
   
@@ -119,7 +119,7 @@
     color: #fff; 
   }
   
-  .sin-tarjeta img:hover {
+  .sin-tarjeta img:hover, .con-tarjeta img:hover, .salir img:hover{
     transform: scale(1.1);
     cursor: pointer;
   }
