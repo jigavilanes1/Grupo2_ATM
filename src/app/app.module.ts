@@ -12,7 +12,8 @@ import { CantidadDepositoSintComponent } from './cantidad-deposito/cantidad-depo
 import { ConTarjetaComponent } from './con-tarjeta/con-tarjeta.component';
 import { ConfirmacionDepositoConTComponent } from './confirmacion-deposito/confirmacion-deposito-con-t/confirmacion-deposito-con-t.component';
 import { ConfirmacionDepositoSinTComponent } from './confirmacion-deposito/confirmacion-deposito-sin-t/confirmacion-deposito-sin-t.component';
-import { ConfirmacionRetirosComponent } from './confirmacion-retiros/confirmacion-retiros.component';
+import { ConfirmacionRetiroSinTComponent } from './confirmacion-retiros/confirmacion-retiro-sin-t/confirmacion-retiro-sin-t.component';
+import { ConfirmacionRetiroConTComponent } from './confirmacion-retiros/confirmacion-retiro-con-t/confirmacion-retiro-con-t.component';
 import { ConsultarSaldoComponent } from './consultar-saldo/consultar-saldo.component';
 import { DepositosConTarjetaComponent } from './depositos/depositos-con-tarjeta/depositos-con-tarjeta.component';
 import { DepositosSinTarjetaComponent } from './depositos/depositos-sin-tarjeta/depositos-sin-tarjeta.component';
@@ -42,7 +43,8 @@ import { FaltaTarjetaComponent } from './falta-tarjeta/falta-tarjeta.component';
     ConTarjetaComponent,
     ConfirmacionDepositoConTComponent,
     ConfirmacionDepositoSinTComponent,
-    ConfirmacionRetirosComponent,
+    ConfirmacionRetiroSinTComponent,
+    ConfirmacionRetiroConTComponent,
     ConsultarSaldoComponent,
     DepositosConTarjetaComponent,
     DepositosSinTarjetaComponent,

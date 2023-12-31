@@ -109,12 +109,12 @@
     margin-bottom: 40px;
   }
   
-  .con-tarjeta {
+  .sin-tarjeta {
     background-color: #1d837a;
     color: #fff; 
   }
   
-  .sin-tarjeta:hover {
+  .con-tarjeta:hover {
     background-color: #1d837a;
     color: #fff; 
   }

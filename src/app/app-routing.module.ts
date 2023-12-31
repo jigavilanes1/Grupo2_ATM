@@ -10,7 +10,8 @@ import { CantidadDepositoSintComponent } from './cantidad-deposito/cantidad-depo
 import { ConTarjetaComponent } from './con-tarjeta/con-tarjeta.component';
 import { ConfirmacionDepositoConTComponent } from './confirmacion-deposito/confirmacion-deposito-con-t/confirmacion-deposito-con-t.component';
 import { ConfirmacionDepositoSinTComponent } from './confirmacion-deposito/confirmacion-deposito-sin-t/confirmacion-deposito-sin-t.component';
-import { ConfirmacionRetirosComponent } from './confirmacion-retiros/confirmacion-retiros.component';
+import { ConfirmacionRetiroSinTComponent } from './confirmacion-retiros/confirmacion-retiro-sin-t/confirmacion-retiro-sin-t.component';
+import { ConfirmacionRetiroConTComponent } from './confirmacion-retiros/confirmacion-retiro-con-t/confirmacion-retiro-con-t.component';
 import { ConsultarSaldoComponent } from './consultar-saldo/consultar-saldo.component';
 import { DepositosConTarjetaComponent } from './depositos/depositos-con-tarjeta/depositos-con-tarjeta.component';
 import { DepositosSinTarjetaComponent } from './depositos/depositos-sin-tarjeta/depositos-sin-tarjeta.component';
@@ -38,8 +39,9 @@ const routes: Routes = [
   { path: 'cantidadDepositoConT', component: CantidadDepositoContComponent},
   { path: 'conTarjeta', component: ConTarjetaComponent},
   { path: 'confirmacionDeposito', component: ConfirmacionDepositoConTComponent},
-  { path: 'confirmacionDepositoST', component: ConfirmacionDepositoSinTComponent},
-  { path: 'confirmacionRetiro', component: ConfirmacionRetirosComponent},
+  { path: 'confirmacionDepositoST', component: ConfirmacionRetiroSinTComponent},
+  { path: 'confirmacionRetiro', component: ConfirmacionRetiroConTComponent },
+  { path: 'confirmacionRetiroST', component: ConfirmacionRetiroSinTComponent },
   { path: 'consultarSaldo', component: ConsultarSaldoComponent},
   { path: 'depositosConTarjeta', component: DepositosConTarjetaComponent},
   { path: 'depositosSinTarjeta', component: DepositosSinTarjetaComponent},
