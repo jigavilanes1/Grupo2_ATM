@@ -109,7 +109,12 @@
     margin-bottom: 40px;
   }
   
-  .con-tarjeta {
+  .sin-tarjeta {
+    background-color: #1d837a;
+    color: #fff; 
+  }
+  
+  .con-tarjeta:hover {
     background-color: #1d837a;
     color: #fff; 
   }
@@ -173,17 +178,48 @@
     height: 150px;
   }
 
-  td div img {
-    max-width: 33%; 
-    height: auto; 
-    margin: 0 auto; 
-    align-items: center;
-}
+  td input {
+    padding: 17.5px;
+    border: 1px solid #ddd;
+    border-radius: 15px; 
+    width: 200px;
+    background-color: #BDBDBD;
+    margin-top: 5px; 
+    cursor: default;
+    text-align: center;
+  }
+
   .input-label {
     text-align: left;
-    top: 10%;
+    top: 30%;
     left: 0%;
     color: #000000;
+  }
+
+  .button-container {
+    display: flex;
+    margin-top: 1%;
+
+  }
+
+  .button {
+    width: 200px;
+    height: 60px;
+    border-radius: 40px;
+    background: linear-gradient(to top, #16b9ab, #1DAB9F);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    color: #fff;
+    margin-right: 50px; 
+    margin-left: 50px; 
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button:hover {
+    background: linear-gradient(to top, #12cdbe, #19c0b2);
   }
 
   footer {

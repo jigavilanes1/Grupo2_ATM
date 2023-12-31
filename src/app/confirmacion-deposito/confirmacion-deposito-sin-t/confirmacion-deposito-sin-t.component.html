@@ -28,24 +28,26 @@
         </div>
         <div class="columna-gris">
             <h3>ATM</h3>
-            <h4>Depositos con Tarjeta</h4>
+            <h4>Deposito sin Tarjeta</h4>
             <table>
                 <tr>
-                  <th>Datos</th>
+                  <th>Confirmación</th>
                 </tr>
                 <tr>
                     <td >
-                        <label class="input-label">Ingrese el número de cuenta: </label>
-                    <br><br>
-                        <label class="input-label"></label>
-                        <input type="text">
-                      </td>
+                        <label class="input-label">El número de cuenta es:  </label>
+                        <input type="text" readonly>
+                        <br>
+                        <label class="input-label">Su valor a depositar es:  </label>
+                        <input type="text" readonly>
+                        <div class="button-container">
+                            <div class="button" routerLink="/depositoExitoso">Confirmar</div>
+                            <div class="button" routerLink="/depositoFallido">Cancelar</div>
+                          </div>
+                    </td>
                 </tr>
               </table>
-              <div class="button-container">
-                <div class="button" routerLink="/cantidadDepositoConT">Continuar</div>
-                <div class="button" routerLink="/depositoFallido">Cancelar</div>
-              </div>
+              
     </div>
     
 </div>

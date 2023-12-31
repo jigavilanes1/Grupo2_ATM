@@ -7,9 +7,11 @@ import { RouterModule } from '@angular/router';
 /************************* COMPONENTS ************************************** */
 import { OpcionesComponent } from './opciones/opciones.component';
 import { LoginAtmComponent } from './login-atm/login-atm.component';
-import { CantidadDepositoComponent } from './cantidad-deposito/cantidad-deposito.component';
+import { CantidadDepositoContComponent } from './cantidad-deposito/cantidad-deposito-cont/cantidad-deposito-cont.component';
+import { CantidadDepositoSintComponent } from './cantidad-deposito/cantidad-deposito-sint/cantidad-deposito-sint.component';
 import { ConTarjetaComponent } from './con-tarjeta/con-tarjeta.component';
-import { ConfirmacionDepositoComponent } from './confirmacion-deposito/confirmacion-deposito.component';
+import { ConfirmacionDepositoConTComponent } from './confirmacion-deposito/confirmacion-deposito-con-t/confirmacion-deposito-con-t.component';
+import { ConfirmacionDepositoSinTComponent } from './confirmacion-deposito/confirmacion-deposito-sin-t/confirmacion-deposito-sin-t.component';
 import { ConfirmacionRetirosComponent } from './confirmacion-retiros/confirmacion-retiros.component';
 import { ConsultarSaldoComponent } from './consultar-saldo/consultar-saldo.component';
 import { DepositosConTarjetaComponent } from './depositos/depositos-con-tarjeta/depositos-con-tarjeta.component';
@@ -23,8 +25,10 @@ import { RetiroExitosoComponent } from './transaccion-exitosa/retiro-exitoso/ret
 import { DepositoFallidoComponent } from './transaccion-fallida/deposito-fallido/deposito-fallido.component';
 import { RetiroFallidoComponent } from './transaccion-fallida/retiro-fallido/retiro-fallido.component';
 import { ValorDepositoConTComponent } from './valores/valor-deposito-con-t/valor-deposito-con-t.component';
+import { ValorDepositoSinTComponent } from './valores/valor-deposito-sin-t/valor-deposito-sin-t.component';
 import { FueraServicioComponent } from './fuera-servicio/fuera-servicio.component';
 import { ValorRetiroConTComponent } from './valores/valor-retiro-con-t/valor-retiro-con-t.component';
+import { ValorRetiroSinTComponent } from './valores/valor-retiro-sin-t/valor-retiro-sin-t.component';
 import { TarjetaComponent } from './tarjeta/tarjeta.component';
 import { FaltaTarjetaComponent } from './falta-tarjeta/falta-tarjeta.component';
 
@@ -33,9 +37,11 @@ import { FaltaTarjetaComponent } from './falta-tarjeta/falta-tarjeta.component';
     AppComponent,
     OpcionesComponent,
     LoginAtmComponent,
-    CantidadDepositoComponent,
+    CantidadDepositoContComponent,
+    CantidadDepositoSintComponent,
     ConTarjetaComponent,
-    ConfirmacionDepositoComponent,
+    ConfirmacionDepositoConTComponent,
+    ConfirmacionDepositoSinTComponent,
     ConfirmacionRetirosComponent,
     ConsultarSaldoComponent,
     DepositosConTarjetaComponent,
@@ -49,8 +55,10 @@ import { FaltaTarjetaComponent } from './falta-tarjeta/falta-tarjeta.component';
     DepositoFallidoComponent,
     RetiroFallidoComponent,
     ValorDepositoConTComponent,
+    ValorDepositoSinTComponent,
     TarjetaComponent,
     ValorRetiroConTComponent,
+    ValorRetiroSinTComponent,
     FueraServicioComponent,
     FaltaTarjetaComponent
   ],
