@@ -31,21 +31,21 @@
 .nombre {
   display: contents;
   align-items: center;
-  cursor:default;
+  cursor: default;
 }
 
 .nombre p {
   font-family: 'Times New Roman', Times, serif;
   font-size: 33px;
   color: #ffffff;
-  cursor:default;
+  cursor: default;
   padding-right: 400px;
 }
 
 .usuario-info {
-  display:flex;
+  display: flex;
   align-items: center;
-  cursor:default;
+  cursor: default;
 }
 
 .usuario-info img {
@@ -82,7 +82,7 @@
   margin-top: 15px;
   width: 45%;
   max-width: 90%;
-  margin-bottom: 15px; 
+  margin-bottom: 15px;
 }
 
 .con-tarjeta img {
@@ -98,34 +98,38 @@
   max-width: 90%;
 }
 
-.salir:hover, .sin-tarjeta:hover, .con-tarjeta:hover {
+.salir:hover,
+.sin-tarjeta:hover,
+.con-tarjeta:hover {
   cursor: pointer;
 }
 
 .salir p {
   margin-top: 25px;
-  font-size: 20px; 
+  font-size: 20px;
   color: #ffffff;
   margin-bottom: 40px;
 }
 
 .con-tarjeta {
   background-color: #1d837a;
-  color: #fff; 
+  color: #fff;
 }
 
 .sin-tarjeta:hover {
   background-color: #1d837a;
-  color: #fff; 
+  color: #fff;
 }
 
-.sin-tarjeta img:hover, .con-tarjeta img:hover, .salir img:hover{
+.sin-tarjeta img:hover,
+.con-tarjeta img:hover,
+.salir img:hover {
   transform: scale(1.1);
   cursor: pointer;
 }
 
 .columna-gris {
-  background-color: #ffffff; 
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -133,48 +137,48 @@
 }
 
 .columna-gris h3 {
-    font-family: 'Times New Roman', serif;
-    font-size: 70px; 
-    color: #000000d3; 
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.386); 
-    margin-top: 30px;
-    font-weight:lighter;
-    cursor:default;
-  }
+  font-family: 'Times New Roman', serif;
+  font-size: 70px;
+  color: #000000d3;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.386);
+  margin-top: 30px;
+  font-weight: lighter;
+  cursor: default;
+}
 
 .columna-gris h4 {
-    font-family: 'Times New Roman', serif;
-    font-size: 30px; 
-    color: #000; 
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.255);
-    margin-top: -50px;
-    font-weight: normal;
-    cursor:default;
+  font-family: 'Times New Roman', serif;
+  font-size: 30px;
+  color: #000;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.255);
+  margin-top: -50px;
+  font-weight: normal;
+  cursor: default;
 }
 
 .centrado {
   text-align: center;
   display: flex;
-  gap: 125px; 
-  justify-content: center; 
+  gap: 125px;
+  justify-content: center;
 }
 
 .cuadro-gris {
-  background-color: #C8C8C8; 
-  padding-top: 40px; 
-  padding-left: 60px; 
-  padding-right: 60px; 
+  background-color: #C8C8C8;
+  padding-top: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
   display: flex;
   align-items: center;
   flex-direction: column;
-  border-radius: 25px; 
+  border-radius: 25px;
   border: 6px solid #bfbebe;
-  box-shadow: 75 4px 4px rgba(0, 0, 0, 0.407); 
-  width: 100%; 
-  max-width: 300px; 
+  box-shadow: 75 4px 4px rgba(0, 0, 0, 0.407);
+  width: 100%;
+  max-width: 300px;
   height: 60%;
   margin-bottom: 20px;
-  
+
 }
 
 .cuadro-gris:hover {
@@ -184,15 +188,15 @@
 }
 
 .cuadro-gris img {
-  width: 80%; 
-  height: 60%; 
+  width: 80%;
+  height: 60%;
 }
 
 .cuadro-gris p {
   font-family: 'Times New Roman', serif;
-    font-size: 25px; 
-    color: #ffffff; 
-    font-weight: normal; 
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: normal;
 }
 
 footer {

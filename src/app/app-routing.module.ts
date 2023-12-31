@@ -39,7 +39,7 @@ const routes: Routes = [
   { path: 'cantidadDepositoConT', component: CantidadDepositoContComponent},
   { path: 'conTarjeta', component: ConTarjetaComponent},
   { path: 'confirmacionDeposito', component: ConfirmacionDepositoConTComponent},
-  { path: 'confirmacionDepositoST', component: ConfirmacionRetiroSinTComponent},
+  { path: 'confirmacionDepositoST', component: ConfirmacionDepositoSinTComponent},
   { path: 'confirmacionRetiro', component: ConfirmacionRetiroConTComponent },
   { path: 'confirmacionRetiroST', component: ConfirmacionRetiroSinTComponent },
   { path: 'consultarSaldo', component: ConsultarSaldoComponent},
