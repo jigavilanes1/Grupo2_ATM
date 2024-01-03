@@ -33,7 +33,7 @@ import { FaltaTarjetaComponent } from './falta-tarjeta/falta-tarjeta.component';
 
 const routes: Routes = [
   
-  { path: '', component: OpcionesComponent},
+  { path: '', component: LoginAtmComponent},
   { path: 'loginAtm', component: LoginAtmComponent},
   { path: 'cantidadDepositoSinT', component: CantidadDepositoSintComponent},
   { path: 'cantidadDepositoConT', component: CantidadDepositoContComponent},
